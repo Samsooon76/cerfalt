@@ -1,0 +1,125 @@
+# Cahier des Charges pour un SaaS de Gestion de Prise en Charge d'Alternants ## 1. Contexte et Objectifs
+
+Vision globale :
+
+Créer une plateforme SaaS intuitive et complète pour gérer les dossiers d'alternants en France, en centralisant les informations relatives à l’alternant, au maître d’alternance et à l’entreprise. L’outil se présente sous la forme d’un CRM dédié au suivi des dossiers.
+
+Objectif principal :
+
+Simplifier et accélérer le traitement des dossiers en automatisant l’extraction de données (via OCR) et en offrant une vue en pipeline pour suivre l’avancement de chaque dossier.
+
+## 2. Description Fonctionnelle ### 2.1 Gestion des Objets et Dossiers
+
+Objets principaux :
+
+Alternant
+
+Maître d’alternance
+
+Entreprise
+
+Dossiers
+
+Données intégrées : Extraction des informations du Cerfa 10103*13 ainsi que d’autres documents (pièce d’identité, passeport, etc.) grâce à une solution OCR (Mistal AI).
+
+### 2.2 Extraction Automatisée de Données
+
+OCR multi-documents :
+
+Extraction des données du Cerfa 10103*13.
+
+Lecture et intégration des informations issues de pièces d’identité et passeports.
+
+### 2.3 Pipeline d’Avancement des Dossiers
+
+Vue pipeline : Interface inspirée des CRM de type "sales" pour visualiser l’état d’avancement des dossiers.
+
+Étapes du pipeline :
+
+Demande de dossier
+
+Dossier créé
+
+En cours de vérification
+
+En traitement
+
+Validé
+
+Fonctionnalités associées : Possibilité de modifier l’étape d’un dossier via un système de glisser/déposer.
+
+### 2.4 Fonctionnalités Collaboratives et Reporting
+
+Collaboration interne :
+
+Partage de dossiers entre gestionnaires.
+
+Système de commentaires internes pour favoriser les échanges sur chaque dossier.
+
+Reporting et statistiques :
+
+Tableau de bord avec indicateurs clés (nombre de dossiers par étape, temps moyen de traitement, etc.).
+
+## 3. Interface Utilisateur et Expérience ### 3.1 Dashboard Central
+
+Présentation synthétique de l’ensemble des dossiers.
+
+Accès rapide aux indicateurs clés et filtres de recherche pour une gestion efficace.
+
+### 3.2 Vue Pipeline
+
+Interface intuitive permettant le suivi visuel de l’avancement des dossiers.
+
+Interaction fluide pour changer l’étape d’un dossier par glisser/déposer.
+
+### 3.3 Gestion Documentaire
+
+Module dédié à l’importation, la consultation et l’archivage des documents.
+
+Possibilité d’annoter ou de commenter directement sur les documents importés.
+
+### 3.4 Collaboration et Communication
+
+Interface intégrée pour le partage de dossiers et l’échange de commentaires entre gestionnaires.
+
+Accès aux informations partagées et historique des échanges pour un suivi transparent.
+
+## 4. Gestion des Utilisateurs et Droits d’Accès
+
+Utilisateurs principaux : Un système de gestion dédié aux gestionnaires.
+
+Fonctionnalités de gestion :
+
+Attribution de droits spécifiques (lecture, modification, validation).
+
+Interface d’administration simplifiée pour ajouter, modifier ou supprimer des utilisateurs.
+
+## 5. Charte Graphique ### 5.1 Style Visuel
+
+Design : Minimaliste, épuré et moderne, mettant l’accent sur la simplicité et la lisibilité.
+
+Disposition : Utilisation généreuse d’espaces blancs pour favoriser une organisation claire de l’information.
+
+### 5.2 Palette de Couleurs
+
+Base : Couleurs neutres (blanc, gris clair) pour les fonds et zones de contenu.
+
+Accents : Teintes douces (ex. bleu ou vert léger) pour les actions et éléments interactifs, permettant d’orienter l’utilisateur sans surcharger l’interface.
+
+### 5.3 Typographie
+
+Choix des polices : Sans-serif modernes telles que Helvetica, Roboto ou équivalent, pour une lecture aisée et une apparence contemporaine.
+
+Hiérarchie typographique : Différenciation claire entre titres, sous-titres et corps de texte grâce à des variations de taille et de poids.
+
+### 5.4 Iconographie et Éléments Graphiques
+
+Icônes : Simples, linéaires et intuitives pour représenter les actions clés (importation, glisser/déposer, partage).
+
+Boutons et feedback visuel : Boutons épurés avec des transitions subtiles (hover, clic) pour améliorer l’interactivité sans distraire l’utilisateur.
+
+## 6. Parcours Utilisateur et Expérience Client
+
+Navigation intuitive : Structure claire et logique permettant d’accéder rapidement aux différentes sections (dashboard, pipeline, gestion documentaire, reporting).
+
+Automatisation et assistance : Processus de validation et de passage d’étape simplifiés grâce à l’automatisation via l’OCR et une interface graphique bien pensée.

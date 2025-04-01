@@ -1,0 +1,45 @@
+chunk-WERSD76P.js?v=c038aa7b:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+@radix-ui_react-dialog.js?v=c038aa7b:336 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+(anonymous) @ @radix-ui_react-dialog.js?v=c038aa7b:336
+commitHookEffectListMount @ chunk-WERSD76P.js?v=c038aa7b:16915
+commitPassiveMountOnFiber @ chunk-WERSD76P.js?v=c038aa7b:18156
+commitPassiveMountEffects_complete @ chunk-WERSD76P.js?v=c038aa7b:18129
+commitPassiveMountEffects_begin @ chunk-WERSD76P.js?v=c038aa7b:18119
+commitPassiveMountEffects @ chunk-WERSD76P.js?v=c038aa7b:18109
+flushPassiveEffectsImpl @ chunk-WERSD76P.js?v=c038aa7b:19490
+flushPassiveEffects @ chunk-WERSD76P.js?v=c038aa7b:19447
+commitRootImpl @ chunk-WERSD76P.js?v=c038aa7b:19416
+commitRoot @ chunk-WERSD76P.js?v=c038aa7b:19277
+performSyncWorkOnRoot @ chunk-WERSD76P.js?v=c038aa7b:18895
+flushSyncCallbacks @ chunk-WERSD76P.js?v=c038aa7b:9119
+(anonymous) @ chunk-WERSD76P.js?v=c038aa7b:18627
+ApprenticesPage.tsx:178 
+            
+            
+           POST https://43d2f890-d4aa-4584-b556-869b9adf05ef-00-3tcs79472q264.spock.replit.dev/api/extract-id-card 500 (Internal Server Error)
+mutationFn @ ApprenticesPage.tsx:178
+fn @ @tanstack_react-query.js?v=c038aa7b:1189
+run @ @tanstack_react-query.js?v=c038aa7b:494
+start @ @tanstack_react-query.js?v=c038aa7b:536
+execute @ @tanstack_react-query.js?v=c038aa7b:1225
+await in execute
+mutate @ @tanstack_react-query.js?v=c038aa7b:2630
+(anonymous) @ @tanstack_react-query.js?v=c038aa7b:3295
+onIdCardSubmit @ ApprenticesPage.tsx:263
+(anonymous) @ chunk-RBMNEPGM.js?v=c038aa7b:1675
+await in (anonymous)
+callCallback2 @ chunk-WERSD76P.js?v=c038aa7b:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=c038aa7b:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=c038aa7b:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=c038aa7b:3736
+executeDispatch @ chunk-WERSD76P.js?v=c038aa7b:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=c038aa7b:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=c038aa7b:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=c038aa7b:7051
+(anonymous) @ chunk-WERSD76P.js?v=c038aa7b:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=c038aa7b:18913
+batchedUpdates @ chunk-WERSD76P.js?v=c038aa7b:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=c038aa7b:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=c038aa7b:5478
+dispatchEvent @ chunk-WERSD76P.js?v=c038aa7b:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=c038aa7b:5449
